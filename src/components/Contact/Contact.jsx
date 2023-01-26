@@ -30,7 +30,7 @@ const Contact = () => {
       <div className='social-media'>
         <a href='https://wa.me/233554038440' target='_blank'><BsWhatsapp size={50}/></a>
         <a href='mailto:cm.incor@gmail.com' target='_blank' ><MdEmail size={60}/></a>
-        <a href='https://facebook.com/'><BsFacebook size={50}/></a>
+        <a href='https://www.facebook.com/charlesM.masiku'><BsFacebook size={50}/></a>
         <a href='https://www.linkedin.com/mwlite/company/cm-online-radio'><BsLinkedin size={50}/></a>
         <a href='https://instagram.com/epicinvestltd?ighid=YmMyMTA2M2Y=' target='_blank'><AiFillInstagram size={60}/></a>
       </div>
