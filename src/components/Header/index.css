@@ -1,0 +1,101 @@
+.header{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin-top: -5%;
+    position: fixed;
+    padding: 1.5%;
+    background-color: var(--color-white);
+    transition: var(--transition);
+}
+
+.logoitems{
+    display: flex;
+    align-items: center;
+    gap: 0.5%;
+    width: 45%;
+}
+
+.logo{
+    width: 10%;
+    border-radius: 50%;
+    box-shadow: 2px var(--color-black);
+    margin-left: 5%;
+}
+
+.cmonline{
+    width: 8%;
+    font-size: 1rem;
+}
+
+.headnav{
+    width: 45vw;
+    display: flex;
+    gap: 10%;
+    justify-content: right;
+    text-decoration-color: var(--color-bg);
+    text-decoration-line: none;
+}
+
+a:link{
+    cursor: pointer;
+}
+
+.about-link{
+    color: var(--color-bg);
+}
+
+.services-link{
+    color: var(--color-bg);
+}
+
+.portfolio-link{
+    color: var(--color-bg);
+}
+
+.contact-link{
+    color: var(--color-bg);
+}
+
+.mobile-nav{
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .header{
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        width: 100%;
+        position: fixed;
+        margin-top: -15%;
+    }
+
+    .headnav{
+        display: none;
+    }
+
+    .cmonline{
+        font-size: 80%;
+    }
+
+    .logo{
+        width: 25%;
+    }
+
+    /* .mobile-nav{
+        display: flex;
+        align-items: left;
+    }
+
+    .mobile-headnav{
+        display: flex;
+        width: 100%;
+        position: absolute;
+        height: 50%;
+    } */
+}

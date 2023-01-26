@@ -1,0 +1,92 @@
+.about{
+    background-color: var(--color-bg);
+    color: var(--color-white);
+    display: flex;
+    width: 100vw;
+    gap: 3%;
+    padding-bottom: 2%;
+}
+
+.about-write-up{
+    width: 50vw;
+    margin-left: 2%;
+}
+
+.about-head{
+    font-size: 2.5rem;
+    margin: 2%;
+    padding-top: 1.5%;
+}
+
+.about-p{
+    font-size: 1.5rem;
+}
+
+.tutorial-services{
+    gap: 1.5%;
+    margin-left: 8%;
+    justify-content: center;
+    width: 25vw;
+    margin: 2%;
+    margin-top: 6%;
+    border: 2px solid var(--color-white);
+    border-radius: 4% ;
+    padding: 1%;
+}
+
+.service-item{
+    display: flex;
+    align-items: baseline;
+    gap: 1%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .about{
+        width: 100vw;
+        flex-direction: column;
+        padding-bottom: 3%;
+    }
+
+    .about-write-up {
+        width: 100vw;
+    }
+
+    .about-p{
+        width: 90vw;
+    }
+
+    .tutorial-services{
+        width: 90vw;
+        border-radius: 0%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about{
+        width: 97vw;
+        flex-direction: column;
+        padding: 1.5%;
+        align-items: center;
+    }
+
+    .about-write-up {
+        width: 100vw;
+    }
+
+    .about-head{
+        font-size: 1.8rem;
+    }
+
+    .about-p{
+        width: 93vw;
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .tutorial-services {
+        width: 87vw;
+        margin: 3%;
+        border-radius: 4%;
+    }
+}

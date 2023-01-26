@@ -1,0 +1,94 @@
+.body{
+    padding: 2%;
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    gap: 2%;
+    transition: var(--transition);
+}
+
+.body-write{
+    gap: 0.5%;
+    width: 45%;
+    margin-top: 5%;
+}
+
+.we-are{
+    font-size: 2.3rem;
+}
+
+.market{
+    font-size: 3.5rem;
+    margin-top: -4%;
+    color: var(--color-bg);
+}
+
+.impact{
+    margin-top: -2%;
+    font-weight: 600;
+}
+
+.body-image{
+    width: 45vw;   
+}
+
+.main-logo{
+    width: 90vw;
+    position: absolute;
+    margin-top: -32%;
+    margin-left: -20%;
+}
+
+/* .write-icons{
+    width: 40%;
+    gap: 2%;
+    justify-content: center;
+} */
+
+@media screen and (max-width: 1024px) {
+    .body{
+        width: 100%;
+    }
+
+    .main-logo{
+        margin-top: -25%;
+        margin-left: -17%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .body{
+        width: 90vw;
+        margin: 1.5%;
+        flex-direction: column-reverse;
+        margin-top: 20%;
+    }
+
+    .body-image{
+        width: 100%;
+        margin: 1.5%;
+        align-content: center;
+        position: absolute;
+        overflow-x: hidden;
+    }
+
+    .main-logo{
+        width: 100vw;
+        margin-left: 8%;
+        position: absolute;
+        overflow-x: hidden;
+    }
+
+    .body-write{
+        width: 95%;
+        margin: 1%;
+    }
+
+    .we-are{
+        font-size: 2rem;
+    }
+
+    .impact{
+        margin-top: -7%;
+    }
+}

@@ -1,0 +1,91 @@
+.contact{
+    width: 100vw;
+    padding-bottom: 2%;
+    color: var(--color-bg);
+    transition: var(--transition);
+}
+
+.contact-us{
+    font-size: 2.5rem;
+    margin: 2%;
+    color: var(--color-bg);
+}
+
+.offline-contact{
+    color: var(--color-bg);
+}
+
+.address{
+    width: 50vw;
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    margin-left: 3%;
+    font-size: 2rem;
+    margin-top: -4%;
+}
+
+.phone-contact{
+    width: 50vw;
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    margin-left: 3%;
+    font-size: 2rem;
+    margin-top: -4%;
+}
+
+.name{
+    width: 50vw;
+    margin-left: 3%;
+    margin-top: -1.5%;
+    padding-bottom: 1.5%;
+    line-height: 3px;
+}
+
+.social-media{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 4%;
+    color: var(--color-bg);
+}
+
+a:link{
+    text-decoration-color: var(--color-bg);
+}
+
+@media screen and (max-width: 1024px) {
+    .contact{
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact{
+        width: 98vw;
+    }
+
+    .contact-us{
+        font-size: 2rem;
+    }
+
+    .offline-contact{
+        width: 98vw;
+    }
+
+    .address{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .name{
+        width: 80%;
+        font-size: 1.3rem;
+    }
+
+    .phone-contact{
+        width: 80%;
+        font-size: 1.5rem;
+    }
+}

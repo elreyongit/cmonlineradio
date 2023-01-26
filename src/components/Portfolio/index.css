@@ -1,0 +1,49 @@
+.portfolio{
+    margin-top: 2%;
+    padding-bottom: 1.5%;
+    transition: var(--transition);
+}
+
+.project-head{
+    color: var(--color-bg);
+    margin: 2.5%;
+    font-size: 2rem;
+}
+
+.project-container{
+    display: flex;
+    width: 100%;
+    margin: 2%;
+    justify-items: center;
+    gap: 4%;
+}
+
+.projects{
+    width: 45%;
+}
+
+.project{
+    width: 100%;
+    border-radius: 4%;
+}
+
+@media screen and (max-width: 1024px) {
+    .portfolio{
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio{
+        width: 100vw;
+        padding-bottom: 7%;
+    }
+
+    .project-head{
+        font-size: 1.5rem;
+    }
+
+    .project-container {
+        margin: 2.5%;
+    }
+}
