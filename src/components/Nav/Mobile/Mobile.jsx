@@ -19,14 +19,14 @@ const Mobile = () => {
         {show ?(
         <div className='mobile-container'>
 
-        <div className='mobile-service'>
+        <div className='mobile-services'>
         <a href='/Body' className='mobile-about'>
             <h4>Home</h4>
             <AiOutlineHome />
         </a>
         </div>
 
-        <div className='mobile-service'>
+        <div className='mobile-services'>
         <a href='/About' className='mobile-about'>
             <h4>About</h4>
             <BsFillPersonXFill />
