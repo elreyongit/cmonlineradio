@@ -35,15 +35,23 @@
 
 @media screen and (max-width: 768px) {
     .portfolio{
-        width: 100vw;
+        width: 97%;
         padding-bottom: 7%;
+
+    }
+
+    .project-container{
+        gap: 6vw;
     }
 
     .project-head{
+        width: 97%;
         font-size: 1.5rem;
     }
 
     .project-container {
-        margin: 2.5%;
+        width: 95%;
+        gap: 10%;
+        margin: 1.2%;
     }
 }

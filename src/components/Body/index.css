@@ -29,7 +29,8 @@
 }
 
 .body-image{
-    width: 45vw;   
+    width: 45vw;
+    z-index: -1;   
 }
 
 .main-logo{
@@ -58,25 +59,19 @@
 
 @media screen and (max-width: 768px) {
     .body{
-        width: 90vw;
-        margin: 1.5%;
+        width: 90%;
+        padding: 2%;
+        margin: 0 auto;
         flex-direction: column-reverse;
         margin-top: 20%;
     }
 
     .body-image{
-        width: 100%;
-        margin: 1.5%;
-        align-content: center;
-        position: absolute;
-        overflow-x: hidden;
+        display: none;
     }
 
     .main-logo{
-        width: 100vw;
-        margin-left: 8%;
-        position: absolute;
-        overflow-x: hidden;
+        display: none;
     }
 
     .body-write{

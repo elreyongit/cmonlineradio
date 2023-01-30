@@ -1,8 +1,8 @@
 .footer{
-    width: 100vw;
+    width: 98%;
     background-color: var(--color-bg);
     font-weight: 600;
     color: var(--color-white);
     text-align: center;
-    padding: 0.1%;
+    padding: 1%;
 }

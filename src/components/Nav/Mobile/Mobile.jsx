@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 import { BsFillPersonXFill, BsFillJournalBookmarkFill } from 'react-icons/bs'
 import { GrServices } from 'react-icons/gr'
-import { AiOutlineBars } from 'react-icons/ai'
+import { AiFillContacts, AiOutlineBars, AiOutlineHome } from 'react-icons/ai'
 import { useState } from 'react'
 
 const Mobile = () => {
@@ -18,20 +18,42 @@ const Mobile = () => {
     <div className='mobile' onClick={showDropdown} onMouseLeave={hideDropdown}>
         {show ?(
         <div className='mobile-container'>
-        <a href='#about'>
+
+        <div className='mobile-service'>
+        <a href='/Body' className='mobile-about'>
+            <h4>Home</h4>
+            <AiOutlineHome />
+        </a>
+        </div>
+
+        <div className='mobile-service'>
+        <a href='/About' className='mobile-about'>
             <h4>About</h4>
             <BsFillPersonXFill />
         </a>
+        </div>
 
-        <a href='#services'>
+        <div className='mobile-services'>
+        <a href='/Services' className='mobile-service'>
             <h4>Services</h4>
             <GrServices />
         </a>
+        </div>
 
-        <a href='#portfolio'>
+        <div className='mobile-services'>
+        <a href='/Portfolio' className='mobile-portfolio'>
             <h4>Portfolio</h4>
             <BsFillJournalBookmarkFill />
         </a>
+        </div>
+
+        <div className='mobile-services'>
+        <a href='/Contact' className='mobile-contact'>
+            <h4>Contact</h4>
+            <AiFillContacts />
+        </a>
+        </div>
+
         </div>
         ):
 

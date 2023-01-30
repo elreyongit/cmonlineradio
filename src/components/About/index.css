@@ -20,13 +20,14 @@
 
 .about-p{
     font-size: 1.5rem;
+    line-height: 3rem;
 }
 
 .tutorial-services{
     gap: 1.5%;
     margin-left: 8%;
     justify-content: center;
-    width: 25vw;
+    width: 30vw;
     margin: 2%;
     margin-top: 6%;
     border: 2px solid var(--color-white);
@@ -45,7 +46,7 @@
     .about{
         width: 100vw;
         flex-direction: column;
-        padding-bottom: 3%;
+        padding-bottom: 8%;
     }
 
     .about-write-up {
@@ -64,9 +65,11 @@
 
 @media screen and (max-width: 768px) {
     .about{
-        width: 97vw;
+        width: 93vw;
         flex-direction: column;
-        padding: 1.5%;
+        padding: 3%;
+        padding-bottom: 12%;
+        margin-left: 0%;
         align-items: center;
     }
 
@@ -79,14 +82,16 @@
     }
 
     .about-p{
-        width: 93vw;
+        width: 93%;
+        margin-left: 2%;
         font-size: 1rem;
         text-align: justify;
     }
 
     .tutorial-services {
         width: 87vw;
-        margin: 3%;
+        margin-left: 0%;
+        margin: 0.4%;
         border-radius: 4%;
     }
 }

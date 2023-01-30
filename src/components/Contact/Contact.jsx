@@ -28,11 +28,11 @@ const Contact = () => {
       </div>
 
       <div className='social-media'>
-        <a href='https://wa.me/233554038440' target='_blank'><BsWhatsapp size={50}/></a>
-        <a href='mailto:cm.incor@gmail.com' target='_blank' ><MdEmail size={60}/></a>
-        <a href='https://www.facebook.com/charlesM.masiku'><BsFacebook size={50}/></a>
-        <a href='https://www.linkedin.com/mwlite/company/cm-online-radio'><BsLinkedin size={50}/></a>
-        <a href='https://instagram.com/epicinvestltd?ighid=YmMyMTA2M2Y=' target='_blank'><AiFillInstagram size={60}/></a>
+        <a href='https://wa.me/233554038440' target='_blank' className='whatsapp'><BsWhatsapp size={30}/></a>
+        <a href='mailto:cm.incor@gmail.com' target='_blank' className='email'><MdEmail size={40}/></a>
+        <a href='https://www.facebook.com/charlesM.masiku' className='facebook'><BsFacebook size={30}/></a>
+        <a href='https://www.linkedin.com/mwlite/company/cm-online-radio' target='_blank' className='linkedin'><BsLinkedin size={30}/></a>
+        <a href='https://instagram.com/epicinvestltd?ighid=YmMyMTA2M2Y=' target='_blank' className='instagram'><AiFillInstagram size={40}/></a>
       </div>
     </div>
   )

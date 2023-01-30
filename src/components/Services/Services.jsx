@@ -58,6 +58,46 @@ const Services = () => {
                 <hr />
                 <div className='service-writeup'>
                 <BsFillPatchCheckFill />
+                <h3 className='service'>Video & Audio Editing</h3>
+                </div>
+            </article>
+
+            <article className='service-content'>
+                <hr />
+                <div className='service-writeup'>
+                <BsFillPatchCheckFill />
+                <h3 className='service'>Voiceover Production</h3>
+                </div>
+            </article>
+
+            <article className='service-content'>
+                <hr />
+                <div className='service-writeup'>
+                <BsFillPatchCheckFill />
+                <h3 className='service'>Professional Facebook, Instagram, LinkedIn, Live tutorials & set-up</h3>
+                </div>
+            </article>
+
+            <article className='service-content'>
+                <hr />
+                <div className='service-writeup'>
+                <BsFillPatchCheckFill />
+                <h3 className='service'>Bulk Message set-up</h3>
+                </div>
+            </article>
+
+            <article className='service-content'>
+                <hr />
+                <div className='service-writeup'>
+                <BsFillPatchCheckFill />
+                <h3 className='service'>Business Logo Designs</h3>
+                </div>
+            </article>
+
+            <article className='service-content'>
+                <hr />
+                <div className='service-writeup'>
+                <BsFillPatchCheckFill />
                 <h3 className='service'>Ministry</h3>
                 </div>
             </article>

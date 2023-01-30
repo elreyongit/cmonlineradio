@@ -46,6 +46,7 @@
 .social-media{
     width: 100%;
     justify-content: center;
+    align-items: center;
     display: flex;
     gap: 4%;
     color: var(--color-bg);
@@ -63,7 +64,8 @@ a:link{
 
 @media screen and (max-width: 768px) {
     .contact{
-        width: 98vw;
+        width: 94%;
+        padding: 1.5%;
     }
 
     .contact-us{
@@ -87,5 +89,9 @@ a:link{
     .phone-contact{
         width: 80%;
         font-size: 1.5rem;
+    }
+
+    .whatsapp{
+
     }
 }
