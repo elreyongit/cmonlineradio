@@ -92,6 +92,7 @@ a:link{
     }
 
     .social-media{
+        width: 100%;
         display: flex;
     }
 }
