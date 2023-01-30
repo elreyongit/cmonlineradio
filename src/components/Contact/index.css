@@ -91,9 +91,8 @@ a:link{
         font-size: 1.5rem;
     }
 
-    .social-media{
-        width: 100%;
+    a{
         display: flex;
-        margin: 1%;
+        visibility: visible;
     }
 }
