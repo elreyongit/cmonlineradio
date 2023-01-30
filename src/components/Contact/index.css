@@ -69,7 +69,7 @@ a:link{
     }
 
     .contact-us{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .offline-contact{
@@ -89,9 +89,5 @@ a:link{
     .phone-contact{
         width: 80%;
         font-size: 1.5rem;
-    }
-
-    .whatsapp{
-
     }
 }
