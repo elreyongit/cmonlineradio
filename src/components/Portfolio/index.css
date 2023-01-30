@@ -49,6 +49,10 @@
         font-size: 1.5rem;
     }
 
+    .projects{
+        margin: 2%;
+    }
+
     .project-container {
         width: 95%;
         gap: 10%;

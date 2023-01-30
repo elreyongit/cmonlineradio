@@ -17,12 +17,12 @@
     .mobile-container{
         background-color: var(--color-bg);
         display: flex;
-        width: max-content;
+        width: 100%;
+        align-self: flex-start;
         align-items: right;
         z-index: 1;
         position: absolute;
         flex-direction: column;
-        max-width: 100%;
         color: var(--color-white);
     }
 
