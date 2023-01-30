@@ -20,7 +20,7 @@ const Mobile = () => {
         <div className='mobile-container'>
 
         <div className='mobile-services'>
-        <a href='/Body' className='mobile-about'>
+        <a href='/Body' className='mobile-home'>
             <h4>Home</h4>
             <AiOutlineHome />
         </a>

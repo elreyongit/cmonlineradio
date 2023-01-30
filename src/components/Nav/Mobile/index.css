@@ -36,6 +36,14 @@
         justify-content: right;
     }
 
+    .mobile-home{
+        width: 90%;
+        gap: 5%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
     .mobile-about{
         width: 90%;
         gap: 5%;
