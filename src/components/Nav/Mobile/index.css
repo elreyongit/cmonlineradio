@@ -11,13 +11,13 @@
         width: 100%;
         align-content: right;
         display: flex;
+        margin-left: 65%;
     }
 
     .mobile-container{
         background-color: var(--color-bg);
         display: flex;
         width: max-content;
-        margin-left: -80%;
         align-items: right;
         z-index: 1;
         position: absolute;
