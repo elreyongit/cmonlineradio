@@ -17,7 +17,7 @@
     .mobile-container{
         background-color: var(--color-bg);
         display: flex;
-        width: 85%;
+        width: 85vw;
         margin-left: -75%;
         padding: 3%;
         align-items: right;
