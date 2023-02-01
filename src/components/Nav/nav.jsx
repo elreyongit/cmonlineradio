@@ -1,18 +1,25 @@
 import React from 'react'
 import './index.css'
 import Logo from '../../assets/logo.jpg'
+import { BsFillPersonXFill, BsFillJournalBookmarkFill } from 'react-icons/bs'
+import { GrServices } from 'react-icons/gr'
+import { AiFillContacts, AiOutlineBars, AiOutlineHome } from 'react-icons/ai'
 import { useState } from 'react'
-import Mobile from './Mobile/Mobile'
+
+import High from './High'
 
 const Nav = () => {
+  const [show, setShow] = useState(false);
+    const showDropdown=()=>{
+        setShow(true);
+    }
+    const hideDropdown=()=>{
+        setShow(false);
+    }
 
   const [isActive, setActive] = useState({
     activeClass: null,
   });
-
-  const toggleClass = () => {
-    setActive(!isActive);
-  };
   return (
     
     <nav>
@@ -28,35 +35,85 @@ const Nav = () => {
           </a>
       
 
-        <a href="About" className={isActive === 'About' ? 'active' : ''}>
+        <a href="#About" onClick={() => setActive('About')} className={isActive === 'About' ? 'active' : ''}>
             <h3 className='about-link'>About</h3>
           </a>
         
 
         
-          <a href="Services" onClick={() => setActive('Services')} className={isActive === 'Services' ? 'active' : ''}>
+          <a href="#Services" onClick={() => setActive('Services')} className={isActive === 'Services' ? 'active' : ''}>
             <h3 className='services-link'>Services</h3>
           </a>
         
 
 
         
-          <a href="Portfolio"  onClick={toggleClass}>
+          <a href="#Portfolio"  onClick={() => setActive('Portfolio')} className={isActive === 'Portfolio' ? 'active' : ''}>
             <h3 className='portfolio-link'>Portfolio</h3>
           </a>
         
 
         
-          <a href="Contact"  onClick={() => setActive('Contact')} className={isActive === 'Contact' ? 'active' : ''}>
+          <a href="#Contact"  onClick={() => setActive('Contact')} className={isActive === 'Contact' ? 'active' : ''}>
             <h3 className='contact-link'>Contact</h3>
           </a>
         
         </div>
 
         
-        <div className='mobile-nav'>
-          <Mobile />
+        <div className='mobile' onClick={showDropdown} onMouseLeave={hideDropdown}>
+        {show ?(
+        <div className='mobile-container'>
+
+        <div className='mobile-services'>
+        <a href='#' className='mobile-home'>
+            <h4>Home</h4>
+            <AiOutlineHome />
+        </a>
         </div>
+        
+        
+        {/* <High 
+          className={'mobile-home'} 
+          locate={'/'}
+          text={'Home'}
+        /> */}
+
+        <div className='mobile-services'>
+        <a href='#About' className='mobile-about'>
+            <h4>About</h4>
+            <BsFillPersonXFill />
+        </a>
+        </div>
+
+        <div className='mobile-services'>
+        <a href='#Services' className='mobile-service'>
+            <h4>Services</h4>
+            <GrServices />
+        </a>
+        </div>
+
+        <div className='mobile-services'>
+        <a href='#Portfolio' className='mobile-portfolio'>
+            <h4>Portfolio</h4>
+            <BsFillJournalBookmarkFill />
+        </a>
+        </div>
+
+        <div className='mobile-services'>
+        <a href='#Contact' className='mobile-contact'>
+            <h4>Contact</h4>
+            <AiFillContacts />
+        </a>
+        </div>
+
+        </div>
+        ):
+
+        null}
+
+        <AiOutlineBars size={50}/>
+    </div>
         
     </nav>
   )

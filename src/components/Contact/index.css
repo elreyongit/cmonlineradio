@@ -56,6 +56,26 @@ a:link{
     text-decoration-color: var(--color-bg);
 }
 
+.directors{
+    display: flex;
+    align-items: center;
+}
+
+.md-image{
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    margin-right: 5%;
+}
+
+.md{
+    border-radius: 50%;
+    box-shadow: 3px 6px rgb(141, 139, 139);
+    border: 5px solid rgb(236, 235, 235);
+    width: 20vw;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
 @media screen and (max-width: 1024px) {
     .contact{
         width: 100vw;
@@ -91,8 +111,22 @@ a:link{
         font-size: 1.5rem;
     }
 
-    a{
+    .social-media{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
         display: flex;
-        visibility: visible;
+        padding: 4%;
+        gap: 4%;
+    }
+
+    .directors{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .md{
+        width: 40vw;
     }
 }

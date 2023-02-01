@@ -5,7 +5,7 @@ import { BsCheck2Square } from 'react-icons/bs'
 const About = (props) => {
   const {setActiveNav} = props
   return (
-    <div className='about'>
+    <div className='about' id='About'>
         <div className='about-write-up'>
         <h2 className='about-head'>About</h2>
         <p className='about-p'>

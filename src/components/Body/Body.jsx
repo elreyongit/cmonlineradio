@@ -7,7 +7,7 @@ import Logo from '../../assets/Logo.png'
 const Body = (props) => {
   const {setActiveNav}=props
   return (
-    <div className='body' onEnterViewport={() => setActiveNav("#active")}>
+    <div className='body'>
         <div className='body-write'>
         <h1 className='we-are'>We are a Social Media</h1>
         <h1 className='market'>MARKETING AGENCY</h1>
