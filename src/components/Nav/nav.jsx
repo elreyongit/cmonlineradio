@@ -6,8 +6,6 @@ import { GrServices } from 'react-icons/gr'
 import { AiFillContacts, AiOutlineBars, AiOutlineHome } from 'react-icons/ai'
 import { useState } from 'react'
 
-import High from './High'
-
 const Nav = () => {
   const [show, setShow] = useState(false);
     const showDropdown=()=>{
@@ -45,21 +43,21 @@ const Nav = () => {
             <h3 className='services-link'>Services</h3>
           </a>
         
-
-
-        
           <a href="#Portfolio"  onClick={() => setActive('Portfolio')} className={isActive === 'Portfolio' ? 'active' : ''}>
             <h3 className='portfolio-link'>Portfolio</h3>
-          </a>
-        
+          </a>        
 
-        
-          <a href="#Contact"  onClick={() => setActive('Contact')} className={isActive === 'Contact' ? 'active' : ''}>
+        <a href="#Contact"  onClick={() => setActive('Contact')} className={isActive === 'Contact' ? 'active' : ''}>
             <h3 className='contact-link'>Contact</h3>
           </a>
         
         </div>
 
+        <div className='mobile-menu'>
+        <div className='mobile-logoitems'>
+        <img src={Logo} className='m-logo' />
+        <h3 className='m-cmonline'>CMOnline Radio</h3>
+        </div>
         
         <div className='mobile' onClick={showDropdown} onMouseLeave={hideDropdown}>
         {show ?(
@@ -71,13 +69,6 @@ const Nav = () => {
             <AiOutlineHome />
         </a>
         </div>
-        
-        
-        {/* <High 
-          className={'mobile-home'} 
-          locate={'/'}
-          text={'Home'}
-        /> */}
 
         <div className='mobile-services'>
         <a href='#About' className='mobile-about'>
@@ -100,12 +91,7 @@ const Nav = () => {
         </a>
         </div>
 
-        <div className='mobile-services'>
-        <a href='#Contact' className='mobile-contact'>
-            <h4>Contact</h4>
-            <AiFillContacts />
-        </a>
-        </div>
+        
 
         </div>
         ):
@@ -113,6 +99,7 @@ const Nav = () => {
         null}
 
         <AiOutlineBars size={50}/>
+    </div>
     </div>
         
     </nav>
