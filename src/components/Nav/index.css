@@ -96,7 +96,6 @@ a,h3{
 
         .mobile{
             width: 100%;
-            align-content: right;
             display: flex;
             justify-content: end;
             padding: 5%;
@@ -109,7 +108,7 @@ a,h3{
             display: inline-block;
             padding: 0.5%;
             width: 92vw;
-            align-items: right;
+            justify-content: end;
             z-index: 2;
             margin-top: 11%;
             position: absolute;
