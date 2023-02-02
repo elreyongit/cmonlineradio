@@ -88,12 +88,6 @@ a,h3{
         width: 25%;
     }
 
-    .mobile-nav{
-        width: 50vw;
-        display: flex;
-        align-items: right;
-    }
-
     .mobile{
         width: 100%;
         display: flex;
@@ -101,7 +95,7 @@ a,h3{
         padding: 5%;
         height: 10vh;
         margin-top: 10%;
-        align-content: flex-end;
+        position: relative;
     }
 
     .mobile-container{
@@ -109,10 +103,9 @@ a,h3{
         display: inline-block;
         padding: 0.5%;
         width: 92vw;
-        justify-content: flex-end;
         z-index: 2;
+        margin-left: 3%;
         margin-top: 11%;
-        margin-left: -5%;
         position: absolute;
         color: var(--color-bg);
     }
@@ -201,7 +194,6 @@ a,h3{
     }
 
     .mobile-icon{
-        position: fixed;
         margin-top: -0.5%;
     }
     
