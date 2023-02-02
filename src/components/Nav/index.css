@@ -104,7 +104,7 @@ a,h3{
         padding: 0.5%;
         width: 92vw;
         z-index: 2;
-        margin-left: 3%;
+        margin-left: -6%;
         margin-top: 11%;
         position: absolute;
         color: var(--color-bg);
@@ -195,6 +195,7 @@ a,h3{
 
     .mobile-icon{
         margin-top: -0.5%;
+        margin-left: -10%;
     }
     
 }
