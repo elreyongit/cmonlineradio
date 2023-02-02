@@ -101,6 +101,7 @@ a,h3{
         padding: 5%;
         height: 10vh;
         margin-top: 10%;
+        align-content: flex-end;
     }
 
     .mobile-container{
@@ -108,9 +109,10 @@ a,h3{
         display: inline-block;
         padding: 0.5%;
         width: 92vw;
-        justify-content: end;
+        justify-content: flex-end;
         z-index: 2;
         margin-top: 11%;
+        margin-left: -5%;
         position: absolute;
         color: var(--color-bg);
     }
@@ -177,8 +179,6 @@ a,h3{
         height: 15vh;
         top: 0;
         align-items: center;
-        justify-content: end;
-        margin-left: -10%;
     }
 
     .mobile-logoitems{
