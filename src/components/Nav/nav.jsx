@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.css'
 import Logo from '../../assets/logo.jpg'
+import MobileLogo from '../../assets/logo.jpg'
 import { BsFillPersonXFill, BsFillJournalBookmarkFill } from 'react-icons/bs'
 import { GrServices } from 'react-icons/gr'
 import { AiFillContacts, AiOutlineBars, AiOutlineHome } from 'react-icons/ai'
@@ -55,7 +56,7 @@ const Nav = () => {
 
         <div className='mobile-menu'>
         <div className='mobile-logoitems'>
-        <img src={Logo} className='m-logo' />
+        <img src={MobileLogo} className='m-logo' />
         <h3 className='m-cmonline'>CMOnline Radio</h3>
         </div>
         
@@ -91,14 +92,19 @@ const Nav = () => {
         </a>
         </div>
 
-        
+        <div className='mobile-services'>
+        <a href='#Contact' className='mobile-contact'>
+            <h4>Contact</h4>
+            <AiFillContacts />
+        </a>
+        </div>
 
         </div>
         ):
 
         null}
 
-        <AiOutlineBars size={50}/>
+        <AiOutlineBars size={50} className='mobile-icon'/>
     </div>
     </div>
         

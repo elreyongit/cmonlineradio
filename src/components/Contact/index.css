@@ -36,7 +36,7 @@
 }
 
 .name{
-    width: 50vw;
+    width: 70vw;
     margin-left: 3%;
     margin-top: -1.5%;
     padding-bottom: 1.5%;
@@ -98,17 +98,17 @@ a:link{
 
     .address{
         width: 100%;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 
     .name{
-        width: 80%;
-        font-size: 1.3rem;
+        width: 80vw;
+        font-size: 1.2rem;
     }
 
     .phone-contact{
         width: 80%;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 
     .social-media{
@@ -128,5 +128,10 @@ a:link{
 
     .md{
         width: 40vw;
+    }
+
+    
+    .social{
+        margin-left: 4%;
     }
 }

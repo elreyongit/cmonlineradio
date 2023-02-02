@@ -2,15 +2,14 @@ import React from 'react'
 import './index.css'
 import { BsCheck2Square } from 'react-icons/bs'
 
-const About = (props) => {
-  const {setActiveNav} = props
+const About = () => {
   return (
     <div className='about' id='About'>
         <div className='about-write-up'>
         <h2 className='about-head'>About</h2>
         <p className='about-p'>
             <b>CM Online Radio</b> is a professional Social Media
-            Marketing Agency that professionally manages following Social
+            Marketing Agency that professionally manages the following Social
             Media Business Pages:
 
         </p>
@@ -33,14 +32,6 @@ const About = (props) => {
             <div className='service-item'>
             <BsCheck2Square />
             <h4>Prac Ltd</h4>
-            </div>
-            <div className='service-item'>
-            <BsCheck2Square />
-            <h4>Friction Antidote</h4>
-            </div>
-            <div className='service-item'>
-            <BsCheck2Square />
-            <h4>Ranofa Ventures</h4>
             </div>
             <div className='service-item'>
             <BsCheck2Square />

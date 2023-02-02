@@ -18,7 +18,7 @@ const Services = () => {
                 <hr />
                 <div className='service-writeup'>
                 <BsFillPatchCheckFill />
-                <h3 className='service'>Online Radio</h3>
+                <h3 className='service'>Online Radio Set-up and Advertising</h3>
                 </div>
             </article>
 
@@ -26,7 +26,7 @@ const Services = () => {
                 <hr />
                 <div className='service-writeup'>
                 <BsFillPatchCheckFill />
-                <h3 className='service'>Social Media Marketing and Tutorials</h3>
+                <h3 className='service'>Social Media Marketing Services and Tutorials</h3>
                 </div>
             </article>
 
@@ -34,7 +34,7 @@ const Services = () => {
                 <hr />
                 <div className='service-writeup'>
                 <BsFillPatchCheckFill />
-                <h3 className='service'>E-commerce - Mini importation tutorials</h3>
+                <h3 className='service'>E-commerce Business - Mini importation tutorials</h3>
                 </div>
             </article>
 
