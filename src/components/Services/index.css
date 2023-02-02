@@ -78,11 +78,11 @@
     }
 
     .service-content{
-        width: 94vw;
+        width: 90%;
     }
 
     .service-writeup{
-        width: 86%;
+        width: 100%;
         gap: 4%;
     }
 }
