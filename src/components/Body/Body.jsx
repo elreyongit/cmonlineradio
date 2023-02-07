@@ -11,7 +11,8 @@ const Body = (props) => {
         <div className='body-write'>
         <h1 className='we-are'>We are a Social Media</h1>
         <h1 className='market'>MARKETING AGENCY</h1>
-        <p className='impact'>...impacting lives, raising well informed
+        <p className='impact'>...networking, collaborating, building brands,
+            impacting lives, raising well informed
             entrepreneurs with skills and knowledge
         </p>
 
