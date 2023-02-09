@@ -5,8 +5,21 @@ import { MdEmail } from 'react-icons/md'
 import { BiPhoneCall } from 'react-icons/bi'
 import { AiFillInstagram } from 'react-icons/ai'
 import MD from '../../assets/MD.png'
+import { useRef } from 'react'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+      e.preventDefault();
+
+      emailjs.SendForm('fahyvor', 'template_6djgdrq', form.current, 'Amff1N1IhpL2XK1Q6')
+
+      e.target.reset(); 
+
+      alert("Your Request has been received");
+  }
   return (
     <div className='contact' id='Contact'>
       <div className='contact-us'>
@@ -41,6 +54,13 @@ const Contact = () => {
           </h1>
         </div>
       </div>
+
+      <form ref={form} onClick={sendEmail}>
+        <input type="text" name="name" placeholder="Your Full Name" required />
+        <input type="email" name="email" placeholder="Email Address" requied />
+        <textarea type="message" name="message" placeholder="Place your order" />
+        <button type="submit">Place Your Request</button>
+      </form>
 
     {/* Social Icons */}
       <div className='social-media'>
