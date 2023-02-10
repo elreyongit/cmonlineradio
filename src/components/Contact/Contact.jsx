@@ -17,8 +17,6 @@ const Contact = () => {
       emailjs.SendForm('cmonline', 'template_ddj743v', form.current, 'SQ5stFyyca16ihEE')
 
       e.target.reset(); 
-
-      alert("Your Request has been received");
   }
   return (
     <div className='contact' id='Contact'>
