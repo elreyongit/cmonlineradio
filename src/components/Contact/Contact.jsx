@@ -14,7 +14,7 @@ const Contact = () => {
   const sendEmail = (e) => {
       e.preventDefault();
 
-      emailjs.SendForm('fahyvor', 'template_6djgdrq', form.current, 'Amff1N1IhpL2XK1Q6')
+      emailjs.SendForm('cmonline', 'template_ddj743v', form.current, 'SQ5stFyyca16ihEE')
 
       e.target.reset(); 
 
