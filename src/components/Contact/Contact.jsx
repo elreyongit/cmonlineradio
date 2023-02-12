@@ -14,7 +14,7 @@ const Contact = () => {
   const sendEmail = (e) => {
       e.preventDefault();
 
-      emailjs.sendForm('cmonline', 'template_rm0i3le', form.current, 'SQ5stFyyca16ihEE')
+      emailjs.sendForm('cmonline', 'template_rm0i3le', form.current, 'b7g9l130BNDRug2mM')
       .then((result) => {
         console.log("Message Sent");
         console.log(result.text);
