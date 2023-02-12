@@ -14,7 +14,7 @@ const Contact = () => {
   const sendEmail = (e) => {
       e.preventDefault();
 
-      emailjs.sendForm('cmonline', 'template_ddj743v', form.current, 'SQ5stFyyca16ihEE')
+      emailjs.sendForm('cmonline', 'template_rm0i3le', form.current, 'SQ5stFyyca16ihEE')
       .then((result) => {
         console.log("Message Sent");
         console.log(result.text);
@@ -62,9 +62,9 @@ const Contact = () => {
       </div>
 
       <form ref={form} onSubmit={sendEmail}>
-        <input type="text" name="name" placeholder="Your Full Name" required />
+        <input type="text" name="user_name" placeholder="Your Full Name" required />
         <input type="email" name="email" placeholder="Email Address" requied />
-        <textarea type="message" name="message" placeholder="Place your order" />
+        <textarea type="message" rows="7" placeholder="Place your order" />
         <button type="submit">Place Your Request</button>
       </form>
 
