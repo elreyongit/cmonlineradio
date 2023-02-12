@@ -14,10 +14,18 @@ const Contact = () => {
   const sendEmail = (e) => {
       e.preventDefault();
 
-      emailjs.SendForm('cmonline', 'template_ddj743v', form.current, 'SQ5stFyyca16ihEE')
+      emailjs.sendForm('cmonline', 'template_ddj743v', form.current, 'SQ5stFyyca16ihEE')
+      .then((result) => {
+        console.log("Message Sent");
+        console.log(result.text);
+        alert("Request received");
+    }, (error) => {
+        console.log(error.text);
+    });
 
-      e.target.reset(); 
-  }
+    e.target.reset()
+  };
+
   return (
     <div className='contact' id='Contact'>
       <div className='contact-us'>
@@ -53,7 +61,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <form ref={form} onClick={sendEmail}>
+      <form ref={form} onSubmit={sendEmail}>
         <input type="text" name="name" placeholder="Your Full Name" required />
         <input type="email" name="email" placeholder="Email Address" requied />
         <textarea type="message" name="message" placeholder="Place your order" />

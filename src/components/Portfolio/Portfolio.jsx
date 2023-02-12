@@ -12,7 +12,6 @@ import "swiper/swiper-bundle.min.css";
 import SwiperCore, { EffectFlip, Navigation, Pagination } from "swiper";
 import Project1 from '../../assets/Project1.jpg'
 import Project2 from '../../assets/Project2.jpg'
-import Project3 from '../../assets/Project3.jpg'
 import Project4 from '../../assets/Project4.jpg'
 import Project5 from '../../assets/Project5.jpg'
 import Project6 from '../../assets/Project6.jpg'
@@ -67,10 +66,6 @@ const Portfolio = () => {
 
             <SwiperSlide>
             <img src={Project2} alt='Image2' className='project' />
-            </SwiperSlide>
-
-            <SwiperSlide>
-            <img src={Project3} alt='Image2' className='project' />
             </SwiperSlide>
 
             <SwiperSlide>
