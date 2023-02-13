@@ -36,6 +36,7 @@ import Project24 from '../../assets/Project24.jpg'
 import Project25 from '../../assets/Project25.jpg'
 import Project26 from '../../assets/Project26.jpg'
 import Project27 from '../../assets/Project27.jpg'
+import Video from '../../assets/video.mp4'
 
 const Portfolio = () => {
   return (
@@ -46,7 +47,7 @@ const Portfolio = () => {
 
         <Swiper
             spaceBetween={20}
-            slidesPerView={3}
+            slidesPerView={2}
             speed={500}
             loop={true}
             autoplay={{
@@ -60,6 +61,11 @@ const Portfolio = () => {
             className="mySwiper"
       >
         
+            <SwiperSlide>
+            <video src={Video} muted autoPlay loop type='video/mp4' className='project' controls>
+              </video>
+            </SwiperSlide>
+
             <SwiperSlide>
             <img src={Project1} alt='Image1' className='project' />
             </SwiperSlide>
