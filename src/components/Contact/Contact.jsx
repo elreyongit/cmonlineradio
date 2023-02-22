@@ -72,9 +72,9 @@ const Contact = () => {
       <div className='social-media'>
         <a href='https://wa.me/233554038440' target='_blank' className='social'><BsWhatsapp color='var(--color-bg)' size={40}/></a>
         <a href='mailto:cm.incor@gmail.com' target='_blank' className='social'><MdEmail color='var(--color-bg)' size={50}/></a>
-        <a href='https://www.facebook.com/charlesM.masiku' target='_blank' className='social'><BsFacebook color='var(--color-bg)' size={40}/></a>
+        <a href='https://www.facebook.com/cmonlineradio' target='_blank' className='social'><BsFacebook color='var(--color-bg)' size={40}/></a>
         <a href='https://www.linkedin.com/mwlite/company/cm-online-radio' target='_blank' className='social'><BsLinkedin color='var(--color-bg)' size={40}/></a>
-        <a href='https://instagram.com/epicinvestltd?ighid=YmMyMTA2M2Y=' target='_blank' className='social'><AiFillInstagram color='var(--color-bg)' size={47}/></a>
+        <a href='https://instagram.com/cmonlineradio?igshid=YmMyMTA2M2Y=' target='_blank' className='social'><AiFillInstagram color='var(--color-bg)' size={47}/></a>
       </div>
     </div>
   )
