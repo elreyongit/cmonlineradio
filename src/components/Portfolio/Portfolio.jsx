@@ -40,7 +40,7 @@ import Video from '../../assets/video.mp4'
 
 const Portfolio = () => {
   return (
-    <div className='portfolio'>
+    <div className='portfolio' id='Portfolio'>
         <div className='project-head'>
         <h2>Projects Carried Out</h2>
         </div>
