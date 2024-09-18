@@ -1,0 +1,220 @@
+.contact{
+    width: 100vw;
+    padding-bottom: 2%;
+    color: var(--color-bg);
+    transition: var(--transition);
+}
+
+.contact-us{
+    font-size: 2.5rem;
+    margin: 2%;
+    color: var(--color-bg);
+}
+
+.offline-contact{
+    color: var(--color-bg);
+}
+
+.address{
+    width: 50vw;
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    margin-left: 3%;
+    font-size: 2rem;
+    margin-top: -4%;
+}
+
+.phone-contact{
+    width: 50vw;
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    margin-left: 3%;
+    font-size: 2rem;
+    margin-top: -4%;
+}
+
+.name{
+    width: 70vw;
+    margin-left: 3%;
+    margin-top: -1.5%;
+    padding-bottom: 1.5%;
+    line-height: 3px;
+}
+
+.social-media{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 4%;
+    color: var(--color-bg);
+}
+
+a:link{
+    text-decoration-color: var(--color-bg);
+}
+
+.directors{
+    display: flex;
+    align-items: center;
+}
+
+.md-image{
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    margin-right: 5%;
+}
+
+.md{
+    border-radius: 50%;
+    box-shadow: 3px 6px rgb(141, 139, 139);
+    border: 5px solid rgb(236, 235, 235);
+    width: 20vw;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+form{
+    display: flex;
+    width: 90vw;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4%;
+    align-items: end;
+}
+
+input{
+    margin-bottom: 2%;
+    height: 6vh;
+    background-color: transparent;
+    border: 2px solid var(--color-bg);
+    border-radius: 8px;
+    width: 30vw;
+    padding: 1%;
+}
+
+textarea{
+    margin-bottom: 2%;
+    height: 20vh;
+    background-color: transparent;
+    border: 2px solid var(--color-bg);
+    border-radius: 8px;
+    width: 30vw;
+    padding: 1%;
+}
+
+button{
+    background-color: var(--color-bg);
+    height: 6vh;
+    width: 30vw;
+    color: var(--color-white);
+    border: 0px solid var(--color-bg);
+    border-radius: 8px;
+    margin-right: 1%;
+}
+
+button:hover{
+    cursor: pointer;
+    color: var(--color-bg);
+    background-color: transparent;
+    border: 2px solid var(--color-bg);
+}
+
+.mySwiper{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    align-items: center !important;
+    align-content: center !important;
+    padding: 2% !important;
+    justify-content: center !important;
+}
+
+.project{
+    position: relative;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .contact{
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact{
+        width: 94%;
+        padding: 1.5%;
+    }
+
+    .contact-us{
+        font-size: 1.5rem;
+    }
+
+    .offline-contact{
+        width: 98vw;
+    }
+
+    .address{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .name{
+        width: 80vw;
+        font-size: 1.2rem;
+    }
+
+    .phone-contact{
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    .social-media{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 4%;
+        gap: 6%;
+    }
+
+    .directors{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .md{
+        width: 40vw;
+    }
+
+    
+    .social{
+        margin-left: 4%;
+    }
+
+    form{
+        align-items: center;
+        width: 70vw;
+    }
+
+    input{
+        width: 70vw;
+        margin-bottom: 5%;
+    }
+
+    textarea{
+        width: 70vw;
+        margin-bottom: 5%;
+        height: 20vh;
+    }
+
+    button{
+        width: 70vw;
+        margin: auto;
+    }
+}

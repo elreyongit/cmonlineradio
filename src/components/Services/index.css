@@ -1,0 +1,88 @@
+.services{
+    width: 100vw;
+    margin-top: 5%;
+    background-color: var(--color-bg);
+    padding: 1.5%;
+    display: flex;
+    gap: 2%;
+    transition: var(--transition);
+}
+
+.services-left{
+    width: 45vw;
+    padding-left: 3%;
+    font-size: 2.5rem;
+    color: var(--color-white);
+}
+
+.agency{
+    width: 75%;
+    font-size: 1.5rem;
+    margin-top: -6.5%;
+    line-height: 3rem;
+}
+
+.services-right{
+    width: 45vw;
+    margin-left: -5%;
+    margin-top: 2.5%;
+}
+
+.service-writeup{
+    color: var(--color-bg-variant);
+    display: flex;
+    align-items: center;
+    gap: 2.5%;
+}
+
+.service{
+    color: var(--color-white);
+}
+
+@media screen and (max-width: 1024px) {
+    .services{
+        width: 95vw;
+    }
+
+    .agency{
+        margin-top: 0.7%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services{
+        width: 95%;
+        max-width: 95%;
+        flex-direction: column;
+        padding: 1%;
+        margin: 0 auto;
+    }
+
+    .services-left{
+        width: 97%;
+        font-size: 1.8rem;
+        padding: 0.3%;
+        margin-left: 1.9%;
+    }
+
+    .agency{
+        width: 97%;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .services-right{
+        width: 95%;
+        margin: 0.5%;
+        padding: 1.5%;
+    }
+
+    .service-content{
+        width: 90%;
+    }
+
+    .service-writeup{
+        width: 100%;
+        gap: 4%;
+    }
+}
