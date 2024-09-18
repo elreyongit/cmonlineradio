@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/specimen/OpenSans');
+
+@font-face {
+  font-family: 'Product Sans Regular, Product Sans Bold, Product Sans Bold Italic, Product Sans Italic';
+  src: url('../src/product-sans/Product\ Sans\ Regular.ttf');
+}
+:root{
+    --color-bg: rgb(225, 104, 5);
+    --color-bg-variant: rgb(215, 218, 79);
+    --color-variant: rgb();
+    --color-white: rgb(255, 255, 255);
+    --color-black: rgb(0, 0, 0);
+
+    --transition: all 400ms ease;
+    width: 1365px;
+    max-width: 100%;
+    height: 100%;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: 2vh;
+}
+
+a:link{
+  cursor: pointer;
+  text-decoration-line: none;
+  text-decoration-color: var(--color-black);
+}
+
+body {
+  margin: 0;
+  font-family: 'Product Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--color-white);
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@media screen and (max-width: 1024px) {
+    :root{
+      width: 90%;
+      /* overflow-x: hidden; */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    :root{
+      width: 100%;
+    }
+
+    .container{
+      width: var(--container-width-sm);
+    }
+}

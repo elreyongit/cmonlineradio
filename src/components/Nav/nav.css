@@ -1,0 +1,199 @@
+nav{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    z-index: 2;
+    margin-top: -5%;
+    position: fixed;
+    padding: 1.5%;
+    background-color: var(--color-white);
+    transition: var(--transition);
+}
+
+.logoitems{
+    display: flex;
+    align-items: center;
+    gap: 0.5%;
+    width: 45%;
+}
+
+.logo{
+    width: 10%;
+    border-radius: 50%;
+    box-shadow: 8px var(--color-black);
+    margin-left: 5%;
+    border: 3px solid rgb(243, 240, 240);
+}
+
+.cmonline{
+    width: 8%;
+    font-size: 1rem;
+}
+
+.headnav{
+    width: 45vw;
+    display: flex;
+    gap: 10%;
+    justify-content: right;
+}
+
+a:link{
+    cursor: pointer;
+}
+
+a,h3{
+    color: var(--color-bg);
+}
+
+.mobile-menu{
+    display: none
+}
+
+.mobile-logoitems{
+    display: none;
+}
+
+.m-logo{
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    nav{
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        gap: 4vw;
+        padding: 0.5%;
+    }
+
+    .headnav{
+        display: none;
+    }
+
+    .cmonline{
+        font-size: 80%;
+    }
+
+    .logo-items{
+        width: 45vw;
+    }
+
+    .logo{
+        width: 25%;
+    }
+
+    .mobile{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        padding: 5%;
+        height: 10vh;
+        margin-top: 10%;
+        position: relative;
+    }
+
+    .mobile-container{
+        background-color: var(--color-white);
+        display: inline-block;
+        padding: 0.5%;
+        width: 92vw;
+        z-index: 2;
+        margin-left: -6%;
+        margin-top: 11%;
+        position: absolute;
+        color: var(--color-bg);
+    }
+
+    .mobile-services{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        gap: 20%;
+        padding-bottom: 0.5%;
+        justify-content: right;
+        color: var(--color-bg);
+    }
+
+    .mobile-home{
+        width: 90%;
+        gap: 5%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .mobile-about{
+        width: 90%;
+        gap: 5%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .mobile-service{
+        width: 90%;
+        gap: 5%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .mobile-portfolio{
+        width: 90%;
+        gap: 5%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .mobile-contact{
+        width: 90%;
+        gap: 5%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .mobile-menu{
+        width: 100vw;
+        z-index: 2;
+        background-color: var(--color-white);
+        position: fixed;
+        display: flex;
+        height: 15vh;
+        top: 0;
+        align-items: center;
+    }
+
+    .mobile-logoitems{
+        display: flex;
+        align-items: center;
+        gap: 0.5%;
+        width: 45%;
+        margin-left: 3%;
+        margin-top: 1.5%;
+    }
+
+    .logoitems{
+        display: none;
+    }
+
+    .m-logo{
+        display: flex;
+        width: 50%;
+        border-radius: 50%;
+    }
+
+    .mobile-icon{
+        margin-top: -0.5%;
+        margin-left: -10%;
+    }
+    
+}
